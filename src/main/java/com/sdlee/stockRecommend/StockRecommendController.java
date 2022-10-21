@@ -26,7 +26,7 @@ public class StockRecommendController {
 	
 	@GetMapping("/stockOne")
 	public StockRecommendDTO getStockDay() {
-		return stockRecommendService.getStockList().get(1);
+		return stockRecommendService.getStockOne("kkkk");
 	}
 	
 	@GetMapping("/stockList")
